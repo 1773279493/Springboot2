@@ -15,4 +15,9 @@ public class HelloWorld {
     public String hello(){
         return "Hello Spring Boot2!";
     }
+
+    @RequestMapping("index")
+    public String index(){
+        return "使用springboot";
+    }
 }
